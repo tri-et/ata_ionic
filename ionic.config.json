@@ -1,0 +1,7 @@
+{
+  "name": "ata_ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
