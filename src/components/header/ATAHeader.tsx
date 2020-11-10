@@ -3,7 +3,6 @@ import { UserContext } from '../../App';
 import './ATAHeader.css';
 import {
   IonHeader,
-  IonTitle,
   IonButtons,
   IonIcon,
   IonToolbar,

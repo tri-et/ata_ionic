@@ -1,0 +1,23 @@
+.check-in-out {
+  color: black !important;
+  padding: 10px;
+}
+
+.button-check {
+  font-size: 14px;
+}
+.icon-check {
+  font-size: 24px;
+  margin-right: 5px;
+}
+.date {
+  font-weight: 700;
+  text-shadow: 1px 1px 3px #00000033;
+  font-size: 20px;
+}
+.margin-bottom {
+  margin-bottom: 10px;
+}
+.card-content {
+  text-align: center;
+}
