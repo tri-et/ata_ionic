@@ -80,6 +80,8 @@ http://ionicframework.com/docs/theming/ */
 
   /** bg **/
   --ion-color-bg: #000000;
+
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -234,4 +236,38 @@ http://ionicframework.com/docs/theming/ */
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+.picker-wrapper.sc-ion-picker-ios {
+  color: var(--ion-color-dark);
+  background: var(--ion-color-primary-contrast);
+  /* --background: var(--ion-color-dark); */
+  /* border-top: 0.5px solid var(--ion-color-danger); */
+}
+
+.picker-ios .picker-prefix,
+.picker-ios .picker-suffix,
+.picker-ios .picker-opt.picker-opt-selected {
+  border-radius: 10px;
+  /* font-family: Montserrat-bold; */
+  /* color: var(--ion-color-dark); */
+}
+
+.picker-ios .picker-opt {
+  /* color: var(--ion-color-dark); */
+  font-family: Montserrat-bold;  
+}
+
+.picker-ios .picker-button,
+.picker-ios .picker-button.activated {
+  color: var(--ion-color-primary);
+  /* font-family: Montserrat-bold; */
+  /* --background: var(--ion-color-primary); */
+  /* background: var(--ion-color-primary);     */
+}
+
+.picker-toolbar.sc-ion-picker-ios {
+  background: var(--ion-color-primary-contrast);
+  border-bottom: 0px solid transparent;
+  /* border-top: 0.5px solid var(--ion-color-danger); */
 }

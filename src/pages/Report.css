@@ -1,0 +1,55 @@
+.report {
+  color: black !important;
+}
+
+.date-time{
+    padding: 3px;
+    font-weight: 700;
+}
+.label{
+    padding-right: 10px;
+    font-weight: 700;
+    font-style: italic;
+}
+.report-header{
+  padding-top: 10px;
+  /* padding-bottom: 5px; */
+}
+.title-header{
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.content{
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.report-row{
+  padding: 5px 0px;
+}
+
+.content:nth-child(1),.title-header:nth-child(1){
+  width: 14%;
+  text-align: center;
+  padding-left: 0px !important;
+}
+.content:nth-child(2),.title-header:nth-child(2){
+  width: 26%;
+  text-align: center;
+}
+.content:nth-child(3),.title-header:nth-child(3){
+  width: 22%;
+  text-align: center;
+}
+.content:nth-child(4){
+  width: 38%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.icon{
+  zoom: 2.0;
+}
+
