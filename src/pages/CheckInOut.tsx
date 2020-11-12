@@ -51,7 +51,7 @@ const CheckInOut: React.FC = () => {
                 <IonIcon className='icon-check' icon={logOutOutline}></IonIcon>
                 Check Out
               </IonButton>
-            </Grid>{' '}
+            </Grid>
             <IonLabel color='primary'>Please proceed to Check In</IonLabel>
           </IonCardContent>
         </IonCard>
