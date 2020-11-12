@@ -15,8 +15,8 @@ import {
 } from 'ionicons/icons';
 import './Home.css';
 import CheckInOut from '../CheckInOut';
-import Report from '../Report';
-import Profile from '../Profile';
+import Report from '../reports/Report';
+import Profile from '../profile/Profile';
 const Home: React.FC = () => {
   return (
       <IonTabs>

@@ -11,7 +11,7 @@ import {
 } from '@ionic/react';
 import { Grid, Box } from '@material-ui/core';
 import { calendarOutline,logInOutline, logOutOutline } from 'ionicons/icons';
-import ATAHeader from '../components/header/ATAHeader';
+import ATAHeader from '../../components/header/ATAHeader';
 import './Report.css';
 
 const Report: React.FC = () => {
